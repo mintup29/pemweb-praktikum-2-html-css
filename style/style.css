@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 22px;
+  padding: 30px 0;
+  color: black;
+}
+
+.container {
+  margin: 60px;
+  margin-left: 600px;
+  padding: 0 0 40px;
+}
+
+.background {
+  float: left;
+  margin: 20px;
+}
+.about {
+  color: black;
+  line-height: 30px;
+  align-items: center;
+}
+.container p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 16px;
+}
+.row {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 100px;
+}
+.col-4 {
+  display: block;
+  align-items: center;
+  padding: 20px 15px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.maps {
+  margin-top: 50px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  border-bottom: 1px solid;
+  margin: auto;
+  display: inline;
+  width: 100%;
+  background-color: blue;
+}
+#headerNav {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.logo {
+  float: left;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.logo h1 {
+  line-height: 50px;
+}
+.navBar {
+  overflow: hidden;
+  position: relative;
+  margin: 14px;
+}
+.navBar ul li {
+  display: inline;
+  font-size: 17px;
+  padding: 8px 17px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+#loc-nav {
+  margin: 25px 50px -50px;
+}
+
+#loc-nav a {
+  text-decoration: none;
+  color: black;
+}
+.iconNavbar svg {
+  width: 24px;
+  height: 24px;
+  float: right;
+  margin-left: 30px;
+}
+.search {
+  float: right;
+  padding: 3px 10px;
+  width: 300px;
+}
+.search-btn {
+  margin-left: 10px;
+}
+
+.navBar a:hover {
+  color: blue;
+  transition-duration: 300ms;
+}
+
+footer {
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "montserrat";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.footer-bottom {
+  background: #000;
+  width: 100 vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
